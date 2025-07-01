@@ -1,0 +1,9 @@
+<ul id="articles-list">
+    {{#each dataJson.articles}}
+        <li data-id="{{this.id}}">
+            <p>ID: {{this.id}}</p>
+            <p>Title: <span class="white">{{this.title}}</span></p>
+            <p>Description: <span class="white">{{this.description}}</span></p>
+        </li>
+    {{/each}}
+</ul>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/color.css">
+    <title>{{title}}</title>
+</head>
+<body class="dark-theme">
+    <div class="b-gray-yellow" id="buttons">
+        <button id="update">Update</button>
+        <button data-option="create" id="add-new">Создать новую статью</button>
+        <input id="delete" min="1" type="number" placeholder="ID для удаления">
+        <button id="delete-btn">Del</button>
+        <button data-theme="white-theme" id="theme">Светлая тема</button>
+    </div>
+    
+    {{{body}}}
+    <script src="/scripts/m.js"></script>
+</body>
+</html>

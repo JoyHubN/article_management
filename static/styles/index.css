@@ -1,0 +1,89 @@
+.hidden{
+    display: none;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.justify{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.fixed-top{
+    position: fixed;
+    top: 10px;
+    z-index: 1000;
+}
+
+.center-content{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#errorM{
+    height: 50px;
+    max-width: 90%;
+}
+
+.s-30{
+    font-size: 30px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.error-dialog{
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+}
+
+
+
+#articles-list{
+    overflow-y: scroll;
+    max-height: 300px;
+    word-break: break-word;
+}
+
+#articles-list li p:nth-of-type(2n), #articles-list li p:nth-of-type(3n){
+    margin-left: 30px;
+    margin-right: 7px;
+}
+
+
+#window-create-new-article{
+    margin-top: 50px;
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+
+#window-create-new-article #title{
+    max-width: 90%;
+    min-width: 50%;
+    min-height: 50px;
+    max-height: 100px;
+}
+
+#window-create-new-article #description{
+    max-width: 90%;
+    min-width: 50%;
+    min-height: 100px;
+}
+
+#buttons{
+    margin: 0 auto;
+    display: grid;
+    
+    max-width: 200px;
+    gap: 10px;
+    border: none;
+    box-shadow: 0px 0px 20px 9px red;
+    padding: 10px;
+    margin-top: 50px;
+}
